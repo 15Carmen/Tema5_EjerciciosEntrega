@@ -1,0 +1,8 @@
+Realizaremos el juego del buscaminas con un array unidimensional. Para aquellos que no hayan jugado nunca (ni siquiera mientras estoy explicando algo), os recuerdo que el juego consiste en destapar todas las casillas de una tabla menos las minas. Si pisamos una mina el juego acaba y hemos perdido.
+
+El juego nos proporcionará pistas, de forma que si destapamos una casilla y no hay una mina, esta casilla nos indicará cuantas minas hay adyacentes a esa posición. Por lo tanto el ordenador debe preparar una tabla de 20 casillas para nosotros en el que colocará 6 minas y las pistas correspondientes.
+Ejemplo: {0,1,*,1,1,*,*,2,*,1,0,0,0}
+
+Este panel permanecerá oculto y es el jugador el que debe tratar de descubrirlo. En cada turno, el jugador indicará qué casilla quiere destapar. Si en esa casilla no hay ninguna mina, se le debe indicar al jugador la pista que hay en esa casilla. Si hay una mina, se le mostrará un mensaje al jugador indicando que ha perdido.
+
+No hagas el ejercicio solo en un main, debes definir distintas funciones para llevarlo a cabo, por ejemplo, una función que inicialice el array con las minas y las pistas, otra función que indique si el juego se ha acabado, etc. Recuerda que las funciones deben definirse en una clase independiente a la clase main. El juego debe seguir ejecutándose hasta que el jugador destape una mina, o haya destapado todas las pistas.
