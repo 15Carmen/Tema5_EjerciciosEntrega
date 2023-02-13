@@ -66,6 +66,7 @@ public class Utilidades {
 
             System.out.println("Pisaste una mina! Tus tropas acaban de morir, has perdido.");
             arrayPintar[casilla] = '*';
+            pintarTablero(arrayPintar);
             acabaJuego = true;                  //game over
 
         } else {                                //Si no hay una bomba en la casilla

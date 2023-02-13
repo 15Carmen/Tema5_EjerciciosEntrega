@@ -1,0 +1,26 @@
+Las Siete y Media es un juego de naipes consistente en ir pidiendo cartas hasta alcanzar 7 puntos y medio, sin pasarse. Recuerda que la baraja española consta de cuatro palos (oros, copas, espadas y bastos), cada uno de los cuales contiene diez cartas (1, 2, 3, 4, 5, 6, 7, sota, caballo y rey).
+
+En el juego de las Siete y Media, cada carta conserva su valor numérico, excepto las figuras (sota, caballo y rey), que valen medio punto cada una. Así, por ejemplo, si nos sale un cinco y luego una sota, tenemos cinco puntos y medio.
+El juego lo gana quien se acerca más a siete y medio sin pasarse.
+
+Escribe una versión simplificada de las siete y media para dos jugadores. Su funcionamiento debe ser el siguiente:
+
+A) El juego empieza por el jugador 1. El ordenador le pregunta si desea pedir una carta:
+Si la respuesta es "sí", el ordenador elige una carta al azar (las cartas pueden repetirse en elecciones sucesivas) y
+muestra la puntuación total acumulada hasta ahora por el jugador.
+
+Si la respuesta es "no", el turno pasa al jugador 2.
+
+El paso A se repite hasta que el jugador responda “no” o hasta que, tras sacar una carta, se pase de 7 puntos y medio. En
+tal caso, pierde su turno y empieza el del jugador 2.
+
+B) El juego continúa por el jugador 2. El ordenador le pregunta si desea pedir una carta:
+Si la respuesta es "sí", el ordenador elige una carta al azar y muestra la puntuación total acumulada hasta ahora por el
+jugador.
+
+Si la respuesta es "no", el juego termina.
+
+El paso B se repite hasta que el jugador responda “no” o hasta que, tras sacar una carta, se pase de 7 puntos y medio. En
+tal caso, pierde su turno y el juego termina.
+
+C) Por último, se compara la puntuación obtenida por cada jugador y se proclama el vencedor. Gana el que más se acerque a 7 puntos y medio sin pasarse. También es posible que ocurra un empate.

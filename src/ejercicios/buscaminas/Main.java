@@ -13,7 +13,7 @@ public class Main {
 
         Utilidades.colocarMinas(arrayMinas, arrayPintar);
 
-        System.out.println(Arrays.toString(arrayMinas));
+        //System.out.println(Arrays.toString(arrayMinas));
 
         Utilidades.pintarTablero(arrayPintar);
 
